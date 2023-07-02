@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/YuichiNAGAO/grpc_sample_app/proto";
+option go_package = ".;pb";
 
 message Memory {
   enum Unit {
